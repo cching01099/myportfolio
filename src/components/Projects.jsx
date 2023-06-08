@@ -65,7 +65,7 @@ const Projects = () => {
                   <p>{d.desc}</p>
                   <div className="links">
                     <a
-                      href="{d.demo}"
+                      href={d.demo}
                       target="_blank"
                       class="link"
                       rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const Projects = () => {
                       <i class="fa-solid fa-globe"></i>demo
                     </a>
                     <a
-                      href="{d.repo}"
+                      href={d.repo}
                       target="_blank"
                       class="link"
                       rel="noopener noreferrer"
