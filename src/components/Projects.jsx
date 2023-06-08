@@ -14,7 +14,7 @@ const Projects = () => {
       desc: "個人網站，將個人資訊、工作經歷及作品集，充分實現於此網站。",
       img: img1,
       demo: "",
-      repo: "",
+      repo: "https://github.com/cching01099/myportfolio",
     },
     {
       id: "2",
