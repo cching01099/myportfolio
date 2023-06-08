@@ -1,0 +1,47 @@
+nav#header {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to right, rgb(166, 208, 234), rgb(255, 226, 192));
+  box-shadow: 0 10px 6px -6px rgb(125, 124, 121);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  z-index: 10;
+
+  div.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    div.avatar {
+      margin: 0;
+      img {
+        width: 5rem;
+      }
+    }
+    div.info {
+      h2 {
+        font-size: 2rem;
+        color: $themeColor;
+        margin-bottom: 3px;
+      }
+      i {
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: $themeColor;
+          text-underline-offset: 3px;
+          text-decoration-thickness: 3px;
+        }
+      }
+    }
+  }
+  div.menu {
+    a {
+      margin: 0.4rem;
+      font-size: 1rem;
+      color: rgb(13, 49, 87);
+    }
+  }
+}

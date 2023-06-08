@@ -1,0 +1,108 @@
+div#projects {
+  div.section_container {
+    width: 100%;
+    div.project {
+      margin: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      div.item {
+        border: 8px solid $themeColor;
+        border-radius: 5rem 1rem 1rem 5rem;
+        margin: 1.6rem;
+        width: 60rem;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 10px 6px -6px rgb(103, 102, 99);
+        &:hover {
+          background-color: rgba(224, 132, 229, 0.2);
+          cursor: pointer;
+        }
+
+        div.info {
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          padding: 2rem;
+
+          h1 {
+            color: $headlineColor;
+            font-size: 3rem;
+            div.tag {
+              display: inline;
+              span {
+                color: white;
+                font-size: 0.8rem;
+                text-align: center;
+                padding: 0.3rem;
+                margin: 0.2rem;
+                border-radius: 10px;
+                &.tag1 {
+                  background-color: rgb(0, 200, 255);
+                }
+                &.tag2 {
+                  background-color: deeppink;
+                }
+                &.tag3 {
+                  background-color: rgb(8, 125, 8);
+                }
+              }
+            }
+          }
+          h2 {
+            color: $headlineColor;
+            font-size: 2rem;
+          }
+          div.others {
+            margin: 0.8rem 0;
+
+            height: 20rem;
+            div.links {
+              padding-top: 1.5rem;
+              p {
+                font-size: 1.1rem;
+              }
+              a {
+                font-size: 1.2rem;
+                margin-right: 1rem;
+              }
+            }
+          }
+        }
+        div.image {
+          width: 60%;
+          position: relative;
+          background-color: $themeColor;
+          border-radius: 1.5rem 0 0 0;
+          img {
+            max-width: 98%;
+            max-height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0.5rem;
+            right: 0;
+            bottom: 0;
+            margin: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 6px -6px rgb(125, 124, 121);
+          }
+        }
+      }
+    }
+  }
+
+  div.section_more {
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    i {
+      margin-left: 1rem;
+    }
+  }
+}

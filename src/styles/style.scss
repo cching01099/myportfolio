@@ -1,0 +1,51 @@
+$themeColor: rgb(21, 78, 140);
+$headlineColor: rgb(13, 49, 87);
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+
+  background: linear-gradient(to right, rgb(166, 208, 234), rgb(255, 226, 192));
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+  }
+  i {
+    margin: 0.4rem;
+  }
+}
+div.section_title {
+  margin: 1.5rem;
+  text-align: center;
+  h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    font-style: italic;
+    color: $themeColor;
+    text-shadow: -4px -4px #80898b;
+  }
+}
+
+@import "./navbar";
+@import "./home";
+@import "./about";
+@import "./projects";
+@import "./contact";
+@import "./footer";

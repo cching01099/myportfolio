@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  background: linear-gradient(to right, rgb(166, 208, 234), rgb(255, 226, 192));
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+}
+a i {
+  margin: 0.4rem;
+}
+
+div.section_title {
+  margin: 1.5rem;
+  text-align: center;
+}
+div.section_title h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(21, 78, 140);
+  text-shadow: -4px -4px #80898b;
+}
+
+nav#header {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to right, rgb(166, 208, 234), rgb(255, 226, 192));
+  box-shadow: 0 10px 6px -6px rgb(125, 124, 121);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  z-index: 10;
+}
+nav#header div.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav#header div.title div.avatar {
+  margin: 0;
+}
+nav#header div.title div.avatar img {
+  width: 5rem;
+}
+nav#header div.title div.info h2 {
+  font-size: 2rem;
+  color: rgb(21, 78, 140);
+  margin-bottom: 3px;
+}
+nav#header div.title div.info i:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(21, 78, 140);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+}
+nav#header div.menu a {
+  margin: 0.4rem;
+  font-size: 1rem;
+  color: rgb(13, 49, 87);
+}
+
+div#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  margin-bottom: 110px;
+  position: relative;
+}
+div#home div.img_container {
+  border: 2px solid rgb(21, 78, 140);
+  border-radius: 50% 0;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+div#home div.img_container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+div#home div.img_container div.img_container2 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 180px;
+  left: 120px;
+  border: 2px solid rgb(21, 78, 140);
+  border-radius: 50% 0;
+}
+div#home div.intro_container {
+  padding: 0.75rem 1.5rem;
+  margin: 3rem;
+  width: 45%;
+}
+div#home div.intro_container h1 {
+  color: rgb(21, 78, 140);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 80px;
+  text-shadow: -4px -4px #b2bbbe;
+}
+div#home div.intro_container div.typewriter_container {
+  margin-top: 1.5rem;
+  margin-left: 0.3rem;
+}
+
+div#about div.section_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+div#about div.section_container div.shape {
+  margin: 2rem 0;
+  width: 10%;
+  background: linear-gradient(to right, rgba(21, 78, 140, 0.8) 0, rgba(21, 78, 140, 0.2) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+}
+div#about div.section_container div.info {
+  width: 40%;
+  border: 2px solid rgb(21, 78, 140);
+  border-radius: 2rem;
+  box-shadow: 0 10px 6px -6px rgb(103, 102, 99);
+  margin: 2rem 1rem;
+  overflow: hidden;
+}
+div#about div.section_container div.info div.summary {
+  border-bottom: 2px dotted rgb(21, 78, 140);
+  padding: 0.75rem 1.25rem;
+}
+div#about div.section_container div.info div.summary:hover {
+  background-color: rgba(246, 199, 237, 0.2);
+  cursor: pointer;
+}
+div#about div.section_container div.info div.summary h3 {
+  font-size: 1.5rem;
+  color: rgb(13, 49, 87);
+  padding-bottom: 0.8rem;
+}
+div#about div.section_container div.info div.summary h3 span {
+  font-size: 1.1rem;
+}
+div#about div.section_container div.info div.skills {
+  border-bottom: 2px dotted rgb(21, 78, 140);
+  padding: 0.75rem 1.5rem;
+}
+div#about div.section_container div.info div.skills:hover {
+  background-color: rgba(199, 246, 220, 0.2);
+  cursor: pointer;
+}
+div#about div.section_container div.info div.skills h3 {
+  font-size: 1.5rem;
+  color: rgb(13, 49, 87);
+  padding-bottom: 0.8rem;
+}
+div#about div.section_container div.info div.skills h3 span {
+  font-size: 1.1rem;
+}
+div#about div.section_container div.info div.learning {
+  height: 100%;
+  padding: 1rem 1.5rem;
+}
+div#about div.section_container div.info div.learning:hover {
+  background-color: rgba(236, 242, 168, 0.2);
+  cursor: pointer;
+}
+div#about div.section_container div.info div.learning h3 {
+  font-size: 1.5rem;
+  color: rgb(13, 49, 87);
+  padding-bottom: 0.8rem;
+}
+div#about div.section_container div.info div.learning h3 span {
+  font-size: 1.1rem;
+}
+div#about div.section_container div.works {
+  margin: 2rem 1rem;
+  width: 45%;
+  border: 2px solid rgb(21, 78, 140);
+  border-radius: 2rem;
+  box-shadow: 0 10px 6px -6px rgb(103, 99, 102);
+  padding: 0.75rem 1.25rem;
+}
+div#about div.section_container div.works h3 {
+  font-size: 1.5rem;
+  color: rgb(13, 49, 87);
+  padding-top: 0.8rem;
+}
+div#about div.section_container div.works h3 span {
+  font-size: 1.1rem;
+}
+div#about div.section_container div.works div.work {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+div#about div.section_container div.works div.work div.content {
+  padding-bottom: 0.8rem;
+}
+div#about div.section_container div.works div.work div.content p.company {
+  font-size: 1.1rem;
+  padding-bottom: 0.25rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+div#about div.section_container div.works div.work div.content p.company span.position {
+  font-size: 1rem;
+}
+div#about div.section_container div.works div.work div.content p.description {
+  color: rgb(121, 121, 121);
+  font-size: 1rem;
+}
+
+div#projects div.section_container {
+  width: 100%;
+}
+div#projects div.section_container div.project {
+  margin: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div#projects div.section_container div.project div.item {
+  border: 8px solid rgb(21, 78, 140);
+  border-radius: 5rem 1rem 1rem 5rem;
+  margin: 1.6rem;
+  width: 60rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 10px 6px -6px rgb(103, 102, 99);
+}
+div#projects div.section_container div.project div.item:hover {
+  background-color: rgba(224, 132, 229, 0.2);
+  cursor: pointer;
+}
+div#projects div.section_container div.project div.item div.info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+div#projects div.section_container div.project div.item div.info h1 {
+  color: rgb(13, 49, 87);
+  font-size: 3rem;
+}
+div#projects div.section_container div.project div.item div.info h1 div.tag {
+  display: inline;
+}
+div#projects div.section_container div.project div.item div.info h1 div.tag span {
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border-radius: 10px;
+}
+div#projects div.section_container div.project div.item div.info h1 div.tag span.tag1 {
+  background-color: rgb(0, 200, 255);
+}
+div#projects div.section_container div.project div.item div.info h1 div.tag span.tag2 {
+  background-color: deeppink;
+}
+div#projects div.section_container div.project div.item div.info h1 div.tag span.tag3 {
+  background-color: rgb(8, 125, 8);
+}
+div#projects div.section_container div.project div.item div.info h2 {
+  color: rgb(13, 49, 87);
+  font-size: 2rem;
+}
+div#projects div.section_container div.project div.item div.info div.others {
+  margin: 0.8rem 0;
+  height: 20rem;
+}
+div#projects div.section_container div.project div.item div.info div.others div.links {
+  padding-top: 1.5rem;
+}
+div#projects div.section_container div.project div.item div.info div.others div.links p {
+  font-size: 1.1rem;
+}
+div#projects div.section_container div.project div.item div.info div.others div.links a {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+div#projects div.section_container div.project div.item div.image {
+  width: 60%;
+  position: relative;
+  background-color: rgb(21, 78, 140);
+  border-radius: 1.5rem 0 0 0;
+}
+div#projects div.section_container div.project div.item div.image img {
+  max-width: 98%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 6px -6px rgb(125, 124, 121);
+}
+div#projects div.section_more {
+  margin-right: 8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+div#projects div.section_more i {
+  margin-left: 1rem;
+}
+
+div#contact div.section_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+div#contact div.section_container div.shape {
+  width: 10%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(21, 78, 140, 0.8) 0, rgba(21, 78, 140, 0.2) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+}
+div#contact div.section_container div.info {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+div#contact div.section_container div.info div.doc,
+div#contact div.section_container div.info .social,
+div#contact div.section_container div.info .dm {
+  text-align: center;
+}
+div#contact div.section_container div.info div.doc h2,
+div#contact div.section_container div.info .social h2,
+div#contact div.section_container div.info .dm h2 {
+  color: rgb(13, 49, 87);
+  font-size: 1.8rem;
+  padding-bottom: 1.5rem;
+}
+div#contact div.section_container div.info div.doc a,
+div#contact div.section_container div.info .social a,
+div#contact div.section_container div.info .dm a {
+  font-size: 1.3rem;
+  padding: 0.75rem;
+}
+div#contact div.section_container div.info div.doc a i:hover,
+div#contact div.section_container div.info .social a i:hover,
+div#contact div.section_container div.info .dm a i:hover {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+}
+div#contact div.section_container div.img {
+  width: 10%;
+  margin-right: 5rem;
+}
+div#contact div.section_container div.img img {
+  width: 9rem;
+  height: 9ren;
+}
+
+div#footer {
+  margin: 4rem 0 1rem 0;
+  text-align: center;
+  color: rgb(13, 49, 87);
+}/*# sourceMappingURL=style.css.map */
