@@ -12,11 +12,19 @@ const Contact = () => {
         <div className="info">
           <div className="doc">
             <h2>Download My CV</h2>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:d1efc6a6-9e09-4757-b27d-dbc428ef2c8c"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="fa-solid fa-download"></i>
               英文版
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:b577815b-f44e-42f1-9138-c29ff863938c"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i class="fa-solid fa-download"></i>
               中文版
             </a>

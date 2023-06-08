@@ -11,7 +11,7 @@ const Projects = () => {
       tag1: "React.js",
       tag2: "SCSS",
       tag3: "Node.js",
-      desc: "個人網站，將個人資訊、工作經歷及作品集，充分實現於此網站。",
+      desc: "個人網站，將個人資訊、履歷、作品集，依照個人風格實現於此網站。",
       img: img1,
       demo: "",
       repo: "https://github.com/cching01099/myportfolio",
@@ -92,7 +92,13 @@ const Projects = () => {
       </div>
 
       <div className="section_more">
-        ...Continue <i class="fa-solid fa-keyboard"></i>
+        <a
+          href="https://github.com/cching01099?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ...see more projects
+        </a>
       </div>
     </div>
   );
