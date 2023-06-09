@@ -18,9 +18,7 @@ const Home = () => {
         <div className="img_container2"></div>
       </div>
       <div className="intro_container">
-        <h1>
-          I'M <br /> CHING YANG
-        </h1>
+        <h1>I'M CHING YANG</h1>
         <div className="typewriter_container">
           <span
             style={{
