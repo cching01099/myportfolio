@@ -18,7 +18,7 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <i class="fa-solid fa-download"></i>
-              英文版
+              English Ver.
             </a>
             <a
               href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:b577815b-f44e-42f1-9138-c29ff863938c"

@@ -5,10 +5,10 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   const spanText = [
-    " 前端網頁開發者!",
-    " 廣告媒體人!",
-    " 愛冒險愛旅行!",
-    " 更愛新奇事物!",
+    " A Front-End Web Developer!",
+    " A Marketer!",
+    " An Adventurer!",
+    " A New-things & Bagel lover!",
   ];
 
   return (
@@ -30,7 +30,7 @@ const Home = () => {
             }}
           >
             {" "}
-            我是楊晴晴 ·
+            This is me ·
             <Typewriter
               words={spanText}
               loop={Infinity}
