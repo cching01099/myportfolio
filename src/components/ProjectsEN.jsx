@@ -14,7 +14,7 @@ const Projects = () => {
       tag3: "Node.js",
       desc: "A single page application for displaying my experience and projects.",
       img: img1,
-      demo: "",
+      demo: "https://cching01099.github.io/myportfolio/#",
       repo: "https://github.com/cching01099/myportfolio",
     },
     {
