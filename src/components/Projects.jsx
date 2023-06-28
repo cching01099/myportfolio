@@ -45,7 +45,7 @@ const Projects = () => {
       tag1: "React.js",
       tag2: "SCSS",
       tag3: "HTML",
-      desc: "串接政府資料開放平台-動物認領養，讓使用者可直接就動物圖片做領養資訊的查看，並也針對網站做切版設計、動畫的運用。",
+      desc: "串接政府資料開放平台-動物認領養，讓使用者可直接就動物圖片做領養資訊的查看。   (*部分功能施工中）",
       img: img4,
       demo: "https://cching01099.github.io/AdoptaPet/",
       repo: "https://github.com/cching01099/AdoptaPet",
