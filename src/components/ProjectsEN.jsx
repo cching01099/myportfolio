@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/portfolioEN.png";
 import img3 from "../assets/arcade-game.png";
 import img2 from "../assets/img-generator.png";
+import img4 from "../assets/pet.png";
 
 const Projects = () => {
   const data = [
@@ -37,6 +38,17 @@ const Projects = () => {
       img: img3,
       demo: "https://cching01099.github.io/ArcadeGame/",
       repo: "https://github.com/cching01099/ArcadeGame",
+    },
+    {
+      id: "4",
+      name: "Adopt a Pet",
+      tag1: "React.js",
+      tag2: "SCSS",
+      tag3: "HTML",
+      desc: "Pet adoption website by using animals adoption data of data.gov.tw. ",
+      img: img4,
+      demo: "https://cching01099.github.io/AdoptaPet/",
+      repo: "https://github.com/cching01099/AdoptaPet",
     },
   ];
 

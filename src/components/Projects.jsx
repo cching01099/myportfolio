@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/portfolio.png";
 import img3 from "../assets/arcade-game.png";
 import img2 from "../assets/img-generator.png";
+import img4 from "../assets/pet.png";
 
 const Projects = () => {
   const data = [
@@ -37,6 +38,17 @@ const Projects = () => {
       img: img3,
       demo: "https://cching01099.github.io/ArcadeGame/",
       repo: "https://github.com/cching01099/ArcadeGame",
+    },
+    {
+      id: "4",
+      name: "Adopt a Pet",
+      tag1: "React.js",
+      tag2: "SCSS",
+      tag3: "HTML",
+      desc: "串接政府資料開放平台-動物認領養，讓使用者可直接就動物圖片做領養資訊的查看，並也針對網站做切版設計、動畫的運用。",
+      img: img4,
+      demo: "https://cching01099.github.io/AdoptaPet/",
+      repo: "https://github.com/cching01099/AdoptaPet",
     },
   ];
 
