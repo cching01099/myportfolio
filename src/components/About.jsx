@@ -49,11 +49,11 @@ const About = () => {
             </h3>
             <p>
               {" "}
-              廣告媒體背景，喜歡學習新事物、挑戰自我，對於美感與使用者體驗有些許涉略及觀點。
+              樂觀開朗大方，喜歡攝影、旅遊，捕捉人生的瞬間、記錄生活的點滴，不設限挑戰自我、勇於跳脫舒適圈。
               <br />
-              目前著重於前端領域的研究，透過線上課程的自學，期望能在軟體開發領域擁有一席之地、貢獻一己之力。
+              廣告媒體背景，擁有近三年的行銷經驗，對於使用者體驗、產品企劃、設計美感有些許涉略及觀點。
               <br />
-              主要使用 React.js、JavaScript、HTML、SCSS 進行專案開發與頁面設計。{" "}
+              透過自學前端程式語言，主要使用React開發專案與頁面設計，喜歡開發side-projects，目前積極轉職成為一名前端工程師。
             </p>
           </div>
           <div className="skills">
@@ -63,10 +63,17 @@ const About = () => {
             </h3>
             <ul>
               <li>
-                前端技術： HTML、CSS、SCSS、Javascript、 Bootstrap、React.js
-                、React Router、 Webpack、Git、Node.js、RWD
+                前端技術： JavaScript、 HTML、CSS、React、SCSS、 Bootstrap、
+                Node.js、 Webpack、 RWD、Git、 Figma、Adobe PS。
               </li>
-              <li>多媒體：GA、iMovie、Adobe PS、Figma</li>
+              <li>
+                專案管理：
+                時程/預算/資源控管、跨部門溝通合作、客戶關係、廠商維運。
+              </li>
+              <li>
+                數據分析：成效型廣告分析、A/B
+                Test規劃、APP介面與素材洞察、GA4分析、GTM應用。
+              </li>
             </ul>
           </div>
           <div className="learning">
