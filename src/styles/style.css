@@ -83,6 +83,7 @@ nav#header div.menu a {
 }
 
 div#home {
+  height: 90vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -106,8 +107,8 @@ div#home div.img_container div.img_container2 {
   width: 500px;
   height: 500px;
   position: absolute;
-  top: 180px;
-  left: 80px;
+  top: 230px;
+  left: 150px;
   border: 2px solid rgb(21, 78, 140);
   border-radius: 50% 0;
 }
