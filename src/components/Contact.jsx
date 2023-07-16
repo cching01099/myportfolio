@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="doc">
             <h2>Download My CV</h2>
             <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:d1efc6a6-9e09-4757-b27d-dbc428ef2c8c"
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:1afb4853-c949-4ce0-baad-fe74993b5fd3"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -21,7 +21,7 @@ const Contact = () => {
               English Ver.
             </a>
             <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:b577815b-f44e-42f1-9138-c29ff863938c"
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:2c0eb870-6bcf-4b6f-aca4-90a1a85f023a"
               target="_blank"
               rel="noopener noreferrer"
             >
