@@ -4,14 +4,6 @@ const About = () => {
   const data = [
     {
       id: "1",
-      period: "2022/11-2023/03",
-      company: "Amway Taiwan Co., Ltd.",
-      position: "Marketing Specialist",
-      desc: "Execution of product launch online activities.",
-      desc_2: "Content planning of Brand official website and E-commerce.",
-    },
-    {
-      id: "2",
       period: "2022/01-2022/08",
       company: "Carat Media Taiwan Ltd.",
       position: "Senior Planner",
@@ -20,7 +12,7 @@ const About = () => {
         "APP interface and material insights for APP Performance optimization suggestions  ",
     },
     {
-      id: "3",
+      id: "2",
       period: "2021/08-2021/12",
       company: "Ogilvy Taiwan Ltd.",
       position: "Senior Account Executive",
@@ -28,7 +20,7 @@ const About = () => {
       desc_2: "Lead the digital project - AR filter",
     },
     {
-      id: "4",
+      id: "3",
       period: "2020/05-2021/08",
       company: "Agein Media & Communication Ltd.",
       position: "Media Planner",
@@ -67,47 +59,66 @@ const About = () => {
             <h3>
               <i class="fa-solid fa-screwdriver-wrench"></i> Skills{" "}
             </h3>
-            <ul>
+            <ul className="skill">
               <li>
-                Front-end: HTML、CSS、SCSS、Javascript、 Bootstrap、React.js
-                、React Router、 Webpack、Git、Node.js、RWD
+                <span>Front End</span> <br />
+                1. Languages： Familiar with JavaScript、 HTML、CSS <br />
+                2. Framework/Library： Familiar with React、React
+                router、SASS/SCSS、 Bootstrap, Beginner in Vue <br />
+                3. Others： Familiar with using axios to get API、Webpack、
+                RWD、Git、 Figma
               </li>
-              <li>Multimedia：GA、iMovie、Adobe PS、Figma</li>
-            </ul>
-          </div>
-          <div className="learning">
-            <h3>
-              <i class="fa-solid fa-book"></i> Self-Learning
-            </h3>
-            <ul>
-              <li>ALPHA Camp - JavaScript 全端開發</li>
-              <li>Udemy - 網頁全端開發、Modern React with Redux</li>
+              <li>
+                <span>Data Analysis </span> <br />
+                1. Performance-based advertising analysis、A/B Test
+                planning、APP interface and material insights <br />
+                2. GA4 analysis、GTM application
+                <br />
+              </li>
+              <li>
+                <span>Language ability</span> <br />
+                1. TOEIC Gold Certificate (875/990)
+              </li>
             </ul>
           </div>
         </div>
-        <div className="works">
-          <h3>
-            <i class="fa-solid fa-briefcase"></i> Work Experience{" "}
-          </h3>
-          {data.map((d) => {
-            return (
-              <div className="work">
-                <div className="period">
-                  <span>{d.period}</span>
-                </div>
+        <div className="experience">
+          <div className="learning">
+            <h3>
+              <i class="fa-solid fa-book"></i> Coding Boot Camp
+            </h3>
+            <div className="details">
+              <p className="description">
+                ALPHA Camp - Foundation Course of Online Web Development Track,
+                specialize in Front-end-Course
+              </p>
+              <span className="period">2022/08-2023/03</span>
+            </div>
+          </div>
+          <div className="works">
+            <h3>
+              <i class="fa-solid fa-briefcase"></i> Work Experience{" "}
+            </h3>
+            {data.map((d) => {
+              return (
+                <div className="work">
+                  <div className="period">
+                    <span>{d.period}</span>
+                  </div>
 
-                <div className="content">
-                  <p className="company">
-                    {d.company} <span className="position">{d.position}</span>
-                  </p>
-                  <p className="description">
-                    1. {d.desc} <br />
-                    2. {d.desc_2}
-                  </p>
+                  <div className="content">
+                    <p className="company">
+                      {d.company} <span className="position">{d.position}</span>
+                    </p>
+                    <p className="description">
+                      1. {d.desc} <br />
+                      2. {d.desc_2}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

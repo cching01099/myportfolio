@@ -93,26 +93,20 @@ div#home {
   position: relative;
 }
 div#home div.img_container {
-  border: 2px solid rgb(21, 78, 140);
-  border-radius: 50% 0;
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   overflow: hidden;
 }
 div#home div.img_container img {
+  width: 28rem;
   -o-object-fit: cover;
      object-fit: cover;
-}
-div#home div.img_container div.img_container2 {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  top: 230px;
-  left: 150px;
-  border: 2px solid rgb(21, 78, 140);
-  border-radius: 50% 0;
+  border-left: 10px solid rgb(21, 78, 140);
+  border-radius: 3rem 0 0 20%;
 }
 div#home div.intro_container {
+  border-radius: 0 0 80% 2rem;
+  border-bottom: 20px solid rgb(255, 145, 0);
   padding: 0.75rem 1.5rem;
   margin: 3rem;
   width: 45%;
@@ -151,25 +145,16 @@ div#about div.section_container div.info div.summary {
   border-bottom: 2px dotted rgb(21, 78, 140);
   padding: 0.75rem 1.25rem;
 }
-div#about div.section_container div.info div.summary:hover {
-  background-color: rgba(246, 199, 237, 0.2);
-  cursor: pointer;
-}
 div#about div.section_container div.info div.summary h3 {
   font-size: 1.5rem;
   color: rgb(13, 49, 87);
   padding-bottom: 0.8rem;
 }
 div#about div.section_container div.info div.summary h3 span {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 div#about div.section_container div.info div.skills {
-  border-bottom: 2px dotted rgb(21, 78, 140);
   padding: 0.75rem 1.5rem;
-}
-div#about div.section_container div.info div.skills:hover {
-  background-color: rgba(199, 246, 220, 0.2);
-  cursor: pointer;
 }
 div#about div.section_container div.info div.skills h3 {
   font-size: 1.5rem;
@@ -177,25 +162,17 @@ div#about div.section_container div.info div.skills h3 {
   padding-bottom: 0.8rem;
 }
 div#about div.section_container div.info div.skills h3 span {
+  font-size: 1.3rem;
+}
+div#about div.section_container div.info div.skills ul.skill li {
+  margin-bottom: 0.3rem;
+}
+div#about div.section_container div.info div.skills ul.skill li span {
   font-size: 1.1rem;
+  font-weight: 500;
+  background-color: rgba(231, 137, 69, 0.3);
 }
-div#about div.section_container div.info div.learning {
-  height: 100%;
-  padding: 1rem 1.5rem;
-}
-div#about div.section_container div.info div.learning:hover {
-  background-color: rgba(236, 242, 168, 0.2);
-  cursor: pointer;
-}
-div#about div.section_container div.info div.learning h3 {
-  font-size: 1.5rem;
-  color: rgb(13, 49, 87);
-  padding-bottom: 0.8rem;
-}
-div#about div.section_container div.info div.learning h3 span {
-  font-size: 1.1rem;
-}
-div#about div.section_container div.works {
+div#about div.section_container div.experience {
   margin: 2rem 1rem;
   width: 45%;
   border: 2px solid rgb(21, 78, 140);
@@ -203,33 +180,49 @@ div#about div.section_container div.works {
   box-shadow: 0 10px 6px -6px rgb(103, 99, 102);
   padding: 0.75rem 1.25rem;
 }
-div#about div.section_container div.works h3 {
+div#about div.section_container div.experience h3 {
   font-size: 1.5rem;
   color: rgb(13, 49, 87);
   padding-top: 0.8rem;
 }
-div#about div.section_container div.works h3 span {
+div#about div.section_container div.experience h3 span {
+  font-size: 1.3rem;
+}
+div#about div.section_container div.experience div.learning h3 {
+  font-size: 1.5rem;
+  color: rgb(13, 49, 87);
+  padding-bottom: 0.8rem;
+}
+div#about div.section_container div.experience div.learning h3 span {
+  font-size: 1.3rem;
+}
+div#about div.section_container div.experience div.learning div.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div#about div.section_container div.experience div.learning div.details p {
   font-size: 1.1rem;
 }
-div#about div.section_container div.works div.work {
+div#about div.section_container div.experience div.work {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-top: 1.5rem;
 }
-div#about div.section_container div.works div.work div.content {
+div#about div.section_container div.experience div.work div.content {
   padding-bottom: 0.8rem;
 }
-div#about div.section_container div.works div.work div.content p.company {
+div#about div.section_container div.experience div.work div.content p.company {
   font-size: 1.1rem;
   padding-bottom: 0.25rem;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-div#about div.section_container div.works div.work div.content p.company span.position {
+div#about div.section_container div.experience div.work div.content p.company span.position {
   font-size: 1rem;
 }
-div#about div.section_container div.works div.work div.content p.description {
+div#about div.section_container div.experience div.work div.content p.description {
   color: rgb(121, 121, 121);
   font-size: 1rem;
 }

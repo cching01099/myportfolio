@@ -9,26 +9,20 @@ div#home {
   position: relative;
 
   div.img_container {
-    border: 2px solid rgb(21, 78, 140);
-    border-radius: 50% 0;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     margin-bottom: 1.5rem;
     overflow: hidden;
 
     img {
+      width: 28rem;
       object-fit: cover;
-    }
-    div.img_container2 {
-      width: 500px;
-      height: 500px;
-      position: absolute;
-      top: 230px;
-      left: 150px;
-      border: 2px solid rgb(21, 78, 140);
-      border-radius: 50% 0;
+      border-left: 10px solid $themeColor;
+      border-radius: 3rem 0 0 20%;
     }
   }
   div.intro_container {
+    border-radius: 0 0 80% 2rem;
+    border-bottom: 20px solid rgb(255, 145, 0);
     padding: 0.75rem 1.5rem;
     margin: 3rem;
     width: 45%;
