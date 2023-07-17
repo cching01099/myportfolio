@@ -44,7 +44,7 @@ const About = () => {
               樂觀開朗大方，喜歡攝影、旅遊。廣告媒體背景，擁有近三年的行銷經驗，對於使用者體驗、產品企劃、設計美感有些許涉略及觀點。
               <br />
               透過於Boot
-              Camp為期8個月的技術培訓，主攻前端技術，擅使用React開發專案，喜歡開發side-projects，目前積極轉職成為一名前端工程師。
+              Camp為期8個月的技術培訓，主攻前端技術，主要使用React開發專案，喜歡開發side-projects、製作網頁。
             </p>
           </div>
           <div className="skills">
