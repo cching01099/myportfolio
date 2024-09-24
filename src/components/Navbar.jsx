@@ -1,7 +1,10 @@
 import React from "react";
 import avatar from "../assets/avatar.png";
+import {useTranslation} from "react-i18next";
 
-const Navbar = ({ onToggleLanguage }) => {
+const Navbar = ({ onToggleLanguage,currentLanguage }) => {
+  const { t } = useTranslation();
+
   return (
     <nav id="header">
       <div className="title">
@@ -9,29 +12,29 @@ const Navbar = ({ onToggleLanguage }) => {
           <img src={avatar} alt="" />
         </div>
         <div className="info">
-          <h2>Ching Yang</h2>
+          <h2> {t("name")}</h2>
         </div>
       </div>
       <div className="menu">
         <a href="#home" className="home">
           <i class="fa-solid fa-house icon"></i>
-          <span className="text">Home</span>
+          <span className="text"> {t("home")}</span>
         </a>
         <a href="#about" className="about">
           <i class="fa-solid fa-user"></i>
-          <span className="text">About Me</span>
+          <span className="text">{t("about")}</span>
         </a>
         <a href="#projects" className="projects">
           <i class="fa-solid fa-file"></i>
-          <span className="text">Projects</span>
+          <span className="text">{t("projects")}</span>
         </a>
         <a href="#contact" className="download">
           <i class="fa-solid fa-comment"></i>
-          <span className="text">Contact</span>
+          <span className="text">{t("contact")}</span>
         </a>
-        <a href="#" className="languageChange" onClick={onToggleLanguage}>
+        <a href={`#${currentLanguage}`} className="languageChange" onClick={onToggleLanguage}>
           <i class="fa-solid fa-language"></i>
-          <span className="text">EN/CN</span>
+          <span className="text">{t("language")}</span>
         </a>
       </div>
     </nav>

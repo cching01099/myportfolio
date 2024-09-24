@@ -1,15 +1,25 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import myphoto from "../assets/myphoto.png";
-
 import { Typewriter } from "react-simple-typewriter";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
-  const spanText = [
-    " 前端網頁開發者!",
-    " 廣告媒體人!",
-    " 愛冒險愛旅行!",
-    " 更愛新奇事物!",
-  ];
+    const { t,i18n } = useTranslation();
+    const [spanText, setSpanText] = useState([
+        t("home_typewriter_1"),
+        t("home_typewriter_2"),
+        t("home_typewriter_3"),
+        t("home_typewriter_4"),
+    ]);
+
+    useEffect(() => {
+        setSpanText([
+            t("home_typewriter_1"),
+            t("home_typewriter_2"),
+            t("home_typewriter_3"),
+            t("home_typewriter_4"),
+        ]);
+    }, [i18n.language, t]);
 
   return (
     <div id="home">
@@ -18,7 +28,7 @@ const Home = () => {
       </div>
       <div className="intro_container">
         <h1>
-          I'M <br /> CHING YANG
+            {t("home_name")} <br /> {t("name")}
         </h1>
         <div className="typewriter_container">
           <span
@@ -29,7 +39,7 @@ const Home = () => {
             }}
           >
             {" "}
-            我是楊晴晴 ·
+              {t("home_span")}  ·
             <Typewriter
               words={spanText}
               loop={Infinity}
@@ -38,7 +48,7 @@ const Home = () => {
               typeSpeed={80}
               deleteSpeed={60}
               delaySpeed={1500}
-            />
+            />!
           </span>
         </div>
       </div>

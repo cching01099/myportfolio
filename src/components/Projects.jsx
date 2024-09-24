@@ -3,49 +3,52 @@ import img1 from "../assets/portfolio.png";
 import img3 from "../assets/arcade-game.png";
 import img2 from "../assets/img-generator.png";
 import img4 from "../assets/pet.png";
+import {useTranslation} from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   const data = [
     {
       id: "1",
-      name: "myPortfolio",
+      name:  t("projects_project_1_name"),
       tag1: "React.js",
       tag2: "SCSS",
       tag3: "Node.js",
-      desc: "個人網站，將個人資訊、履歷、作品集，依照個人風格實現於此網站。",
+      desc: t("projects_project_1_desc"),
       img: img1,
       demo: "",
       repo: "https://github.com/cching01099/myportfolio",
     },
     {
       id: "2",
-      name: "Image Generator",
+      name: t("projects_project_2_name"),
       tag1: "React.js",
       tag2: "SCSS",
       tag3: "Node.js",
-      desc: "圖庫資源網站，串接三種公開且免費的圖片平台資源，可統一於此網站中進行多元風格的圖片資源之搜尋及下載。",
+      desc: t("projects_project_2_desc"),
       img: img2,
       demo: "https://cching01099.github.io/ImageGenerator-React/",
       repo: "https://github.com/cching01099/ImageGenerator-React",
     },
     {
       id: "3",
-      name: "Arcade Game",
+      name: t("projects_project_3_name"),
       tag1: "JavaScript",
       tag2: "SCSS",
       tag3: "HTML",
-      desc: "集結過往使用 Vanilla JavaScript 所撰寫的有趣小遊戲，除了呈現練習的成果之外，也能HAVE FUN！",
+      desc: t("projects_project_3_desc"),
       img: img3,
       demo: "https://cching01099.github.io/ArcadeGame/",
       repo: "https://github.com/cching01099/ArcadeGame",
     },
     {
       id: "4",
-      name: "Adopt a Pet",
+      name: t("projects_project_4_name"),
       tag1: "React.js",
       tag2: "SCSS",
       tag3: "HTML",
-      desc: "串接政府資料開放平台-動物認領養，讓使用者可直接就動物圖片做領養資訊的查看。   (*部分功能施工中）",
+      desc: t("projects_project_4_desc"),
       img: img4,
       demo: "https://cching01099.github.io/AdoptaPet/",
       repo: "https://github.com/cching01099/AdoptaPet",
@@ -55,7 +58,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <div className="section_title">
-        <h1>Projects</h1>
+        <h1>{t("projects")}</h1>
       </div>
       <div className="section_container">
         <div className="project">
@@ -109,7 +112,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          ...see more projects
+          ...{t("projects_seeMore")}
         </a>
       </div>
     </div>

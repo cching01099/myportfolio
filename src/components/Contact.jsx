@@ -1,24 +1,26 @@
 import React from "react";
 import callme from "../assets/callme.png";
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div id="contact">
       <div className="section_title">
-        <h1>Contact</h1>
+        <h1>{t("contact")}</h1>
       </div>
       <div className="section_container">
         <div className="shape"></div>
         <div className="info">
           <div className="doc">
-            <h2>Download My CV</h2>
+            <h2>{t("contact_download")}</h2>
             <a
               href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:1afb4853-c949-4ce0-baad-fe74993b5fd3"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i class="fa-solid fa-download"></i>
-              English Ver.
+              {t("contact_en")}
             </a>
             <a
               href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:2c0eb870-6bcf-4b6f-aca4-90a1a85f023a"
@@ -26,11 +28,11 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <i class="fa-solid fa-download"></i>
-              中文版
+              {t("contact_cn")}
             </a>
           </div>
           <div className="social">
-            <h2>Find Me On</h2>
+            <h2>{t("contact_social")}</h2>
 
             <a
               href="https://github.com/cching01099"
@@ -58,7 +60,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="dm">
-            <h2>DM Me</h2>
+            <h2>{t("contact_dm")}</h2>
             <a
               href="mailto: cching01099@gmail.com"
               className="mail"
