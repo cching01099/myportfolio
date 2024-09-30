@@ -19,7 +19,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-solid fa-download"></i>
+              <i className="fa-solid fa-download"></i>
               {t("contact_en")}
             </a>
             <a
@@ -27,20 +27,19 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-solid fa-download"></i>
+              <i className="fa-solid fa-download"></i>
               {t("contact_cn")}
             </a>
           </div>
           <div className="social">
             <h2>{t("contact_social")}</h2>
-
             <a
               href="https://github.com/cching01099"
               className="github"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/ching-yang-b1549923a/"
@@ -48,7 +47,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
             <a
               href="https://medium.com/@cching01099"
@@ -56,7 +55,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-brands fa-medium"></i>
+              <i className="fa-brands fa-medium"></i>
             </a>
           </div>
           <div className="dm">
@@ -67,7 +66,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
             </a>
             <a
               href="tel:+886989976965"
@@ -75,11 +74,10 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone"></i>
             </a>
           </div>
         </div>
-
         <div className="img">
           <img src={callme} alt="" />
         </div>

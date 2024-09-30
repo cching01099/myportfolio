@@ -40,7 +40,7 @@ const About = () => {
         <div className="info">
           <div className="summary">
             <h3>
-              <i class="fa-solid fa-face-smile"></i> {t("about_summary")}
+              <i className="fa-solid fa-face-smile"></i> {t("about_summary")}
             </h3>
             <p>
               {" "}
@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <div className="skills">
             <h3>
-              <i class="fa-solid fa-screwdriver-wrench"></i>  {t("about_skills")}
+              <i className="fa-solid fa-screwdriver-wrench"></i>  {t("about_skills")}
             </h3>
             <ul className="skill">
               <li>
@@ -72,30 +72,29 @@ const About = () => {
           </div>
         </div>
         <div className="experience">
-          <div className="learning">
-            <h3>
-              <i class="fa-solid fa-book"></i>
-              <span> {t("about_learning")}</span>
+       <div className="learning">
+                  <h3>
+                        <i className="fa-solid fa-book"></i>
+                            <span> {t("about_learning")}</span>
             </h3>
-            <div className="details">
-              <p className="description">{t("about_learning_desc")}</p>
-              <span className="period">2022/08-2023/03</span>
+                    <div className="details">
+                         <p className="description">{t("about_learning_desc")}</p>
+                         <span className="period">2022/08-2023/03</span>
             </div>
           </div>
-          <div className="works">
-            <h3>
-              <i class="fa-solid fa-briefcase"></i>
-              <span> {t("about_works")}</span>
+           <div className="works">
+             <h3>
+             <i className="fa-solid fa-briefcase"></i>
+             <span> {t("about_works")}</span>
             </h3>
             {data.map((d) => {
               return (
-                <div className="work">
+                        <div className="work">
                   <div className="period">
                     <span>{d.period}</span>
                   </div>
-
                   <div className="content">
-                    <p className="company">
+                   <p className="company">
                       {d.company} <span className="position">{d.position}</span>
                     </p>
                     <p className="description">
