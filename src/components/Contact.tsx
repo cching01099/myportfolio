@@ -2,7 +2,7 @@ import React from "react";
 import callme from "../assets/callme.png";
 import {useTranslation} from "react-i18next";
 
-const Contact = () => {
+const Contact:React.FunctionComponent = () => {
   const { t } = useTranslation();
   return (
     <div id="contact">

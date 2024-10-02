@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Footer:React.FunctionComponent = () => {
   return (
     <div id="footer">
       <div>© 2024 Ching Yang. All rights reserved</div>

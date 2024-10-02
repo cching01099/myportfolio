@@ -5,10 +5,22 @@ import img2 from "../assets/img-generator.png";
 import img4 from "../assets/pet.png";
 import {useTranslation} from "react-i18next";
 
+interface Data  {
+  id:string
+  name:string
+  tag1:string
+  tag2:string
+  tag3:string
+  desc:string
+  img:string
+  demo:string
+  repo:string
+}
+
 const Projects = () => {
   const { t } = useTranslation();
 
-  const data = [
+  const projectDatas:Data[] = [
     {
       id: "1",
       name:  t("projects_project_1_name"),
@@ -62,7 +74,7 @@ const Projects = () => {
       </div>
       <div className="section_container">
         <div className="project">
-          {data.map((d) => (
+          {projectDatas.map((d) => (
             <div className="item">
               <div className="info">
                 <h1>

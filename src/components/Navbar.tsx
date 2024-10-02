@@ -2,10 +2,14 @@ import React from "react";
 import avatar from "../assets/avatar.png";
 import {useTranslation} from "react-i18next";
 
-const Navbar = ({
+type NavbarProps = {
+  onToggleLanguage:() => void
+  currentLanguage:string
+}
+const Navbar:React.FunctionComponent<NavbarProps> = ({
   onToggleLanguage,
   currentLanguage
-}: any) => {
+}) => {
   const { t } = useTranslation();
 
   return (

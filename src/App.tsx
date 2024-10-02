@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import "./styles/style.css";
 import {useTranslation} from "react-i18next";
 
-function App() {
+const App:React.FunctionComponent = () => {
 
     const { i18n } = useTranslation();
 
