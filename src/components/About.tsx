@@ -1,10 +1,19 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
 
-const About = () => {
+type Data = {
+    id:string
+    period:string
+    company:string
+    position:string
+    desc:string
+    desc_2:string
+}
+
+const About:React.FunctionComponent = () => {
   const { t } = useTranslation();
 
-  const data = [
+  const data:Data[] = [
     {
       id: "1",
       period: "2022/01-2022/08",
