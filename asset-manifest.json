@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.7afda3b0.css",
-    "main.js": "/myportfolio/static/js/main.e032cd6d.js",
+    "main.js": "/myportfolio/static/js/main.fb4fffed.js",
+    "static/media/ac-platform.png": "/myportfolio/static/media/ac-platform.f1b5c8c2a14f362e3e2a.png",
     "static/media/img-generator.png": "/myportfolio/static/media/img-generator.33035319b04ba45855f3.png",
-    "static/media/pet.png": "/myportfolio/static/media/pet.3076f3d1fcb07fdcc412.png",
     "static/media/arcade-game.png": "/myportfolio/static/media/arcade-game.7d79f9b1c6a8a5365b25.png",
     "static/media/portfolio.png": "/myportfolio/static/media/portfolio.ac5ea894f71036a0f526.png",
-    "static/media/portfolioEN.png": "/myportfolio/static/media/portfolioEN.80d7b8586b09f8fd2da6.png",
+    "static/media/cems-er.png": "/myportfolio/static/media/cems-er.05bfac47724d3b4c90bc.png",
+    "static/media/cems-sdm.png": "/myportfolio/static/media/cems-sdm.7e0f3c2470d1ee2a4938.png",
+    "static/media/app-webview.png": "/myportfolio/static/media/app-webview.12361e0fa2fedfd536ff.png",
+    "static/media/cems-node.png": "/myportfolio/static/media/cems-node.d5a313b1472e528b7516.png",
     "static/media/myphoto.png": "/myportfolio/static/media/myphoto.483c0e8d24614f191cb7.png",
     "static/media/callme.png": "/myportfolio/static/media/callme.98e9279383de9c7326fb.png",
     "static/media/avatar.png": "/myportfolio/static/media/avatar.e696dfa73d09e0f9db17.png",
     "index.html": "/myportfolio/index.html",
     "main.7afda3b0.css.map": "/myportfolio/static/css/main.7afda3b0.css.map",
-    "main.e032cd6d.js.map": "/myportfolio/static/js/main.e032cd6d.js.map"
+    "main.fb4fffed.js.map": "/myportfolio/static/js/main.fb4fffed.js.map"
   },
   "entrypoints": [
     "static/css/main.7afda3b0.css",
-    "static/js/main.e032cd6d.js"
+    "static/js/main.fb4fffed.js"
   ]
 }
