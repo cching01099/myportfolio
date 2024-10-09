@@ -14,16 +14,16 @@ const Contact:React.FunctionComponent = () => {
         <div className="info">
           <div className="doc">
             <h2>{t("contact_download")}</h2>
+            {/*<a*/}
+            {/*  href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:1afb4853-c949-4ce0-baad-fe74993b5fd3"*/}
+            {/*  target="_blank"*/}
+            {/*  rel="noopener noreferrer"*/}
+            {/*>*/}
+            {/*  <i className="fa-solid fa-download"></i>*/}
+            {/*  {t("contact_en")}*/}
+            {/*</a>*/}
             <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:1afb4853-c949-4ce0-baad-fe74993b5fd3"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-solid fa-download"></i>
-              {t("contact_en")}
-            </a>
-            <a
-              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:2c0eb870-6bcf-4b6f-aca4-90a1a85f023a"
+              href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:8b0c3b9e-0285-4cdf-8cf2-20d92b60ed3d"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -13,7 +13,7 @@ const Navbar:React.FunctionComponent<NavbarProps> = ({
   const { t } = useTranslation();
 
   return (
-    <nav id="header">
+    <nav id="header" style={{height:"12%"}}>
       <div className="title">
         <div className="avatar">
           <img src={avatar} alt="" />

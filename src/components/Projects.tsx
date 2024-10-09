@@ -120,7 +120,7 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <div className="section_title" style={{ border:"2px solid green"}}>
+      <div className="section_title">
         <h1>{t("projects")}</h1>
       </div>
       <div className="section_container">
