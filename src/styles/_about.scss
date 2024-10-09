@@ -4,14 +4,12 @@ div#about {
     flex-direction: row;
     width: 100%;
     div.shape {
-      margin: 2rem 0;
-      width: 10%;
       background: linear-gradient(
-        to right,
-        rgba(21, 78, 140, 0.8) 0,
-        rgba(21, 78, 140, 0.2) 50%,
-        rgba(255, 255, 255, 0) 51%,
-        rgba(255, 255, 255, 0) 100%
+                      to right,
+                      rgba(21, 78, 140, 0.8) 0,
+                      rgba(21, 78, 140, 0.2) 50%,
+                      rgba(255, 255, 255, 0) 51%,
+                      rgba(255, 255, 255, 0) 100%
       );
     }
     div.info {
@@ -20,11 +18,9 @@ div#about {
       border-radius: 2rem;
       box-shadow: 0 10px 6px -6px rgb(103, 102, 99);
       margin: 2rem 1rem;
-      overflow: hidden;
       div.summary {
         border-bottom: 2px dotted $themeColor;
         padding: 0.75rem 1.25rem;
-
         h3 {
           font-size: 1.5rem;
           color: $headlineColor;
@@ -62,25 +58,7 @@ div#about {
       border: 2px solid $themeColor;
       border-radius: 2rem;
       box-shadow: 0 10px 6px -6px rgb(103, 99, 102);
-      padding: 0.75rem 1.25rem;
-
-      h3 {
-        font-size: 1.5rem;
-        color: $headlineColor;
-        padding-top: 0.8rem;
-        span {
-          font-size: 1.3rem;
-        }
-      }
       div.learning {
-        h3 {
-          font-size: 1.5rem;
-          color: $headlineColor;
-          padding-bottom: 0.8rem;
-          span {
-            font-size: 1.3rem;
-          }
-        }
         div.details {
           display: flex;
           flex-direction: row;
@@ -90,6 +68,7 @@ div#about {
           }
         }
       }
+      div.works{
       div.work {
         display: flex;
         flex-direction: row-reverse;
@@ -112,7 +91,7 @@ div#about {
             font-size: 1rem;
           }
         }
-      }
+      }}
     }
   }
 }
