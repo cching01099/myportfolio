@@ -1,5 +1,9 @@
-import React, {useMemo} from "react";
+import React from "react";
 import {useTranslation} from "react-i18next";
+import nd_logo from "../assets/logo/nd-logo.png"
+import carat_logo from "../assets/logo/carat-logo.png"
+import ogilvy_logo from "../assets/logo/ogilvy-logo.jpeg"
+import agein_logo from "../assets/logo/agein-logo.png"
 
 type Data = {
     id:string
@@ -8,6 +12,7 @@ type Data = {
     position:string
     desc:string
     desc_2:string
+    logo:string
 }
 
 const About:React.FunctionComponent = () => {
@@ -21,6 +26,7 @@ const About:React.FunctionComponent = () => {
           position: t("about_work_position"),
           desc:  t("about_work_desc"),
           desc_2:  t("about_work_desc2"),
+          logo:nd_logo
       },
     {
       id: "1",
@@ -29,6 +35,7 @@ const About:React.FunctionComponent = () => {
       position: t("about_work_1_position"),
       desc:  t("about_work_1_desc"),
       desc_2:  t("about_work_1_desc2"),
+        logo:carat_logo
     },
     {
       id: "2",
@@ -37,6 +44,7 @@ const About:React.FunctionComponent = () => {
       position: t("about_work_2_position"),
       desc:  t("about_work_2_desc"),
       desc_2:  t("about_work_2_desc2"),
+        logo:ogilvy_logo
     },
     {
       id: "3",
@@ -45,6 +53,7 @@ const About:React.FunctionComponent = () => {
       position: t("about_work_3_position"),
       desc:  t("about_work_3_desc"),
       desc_2:  t("about_work_3_desc2"),
+        logo:agein_logo
     },
   ];
   return (
@@ -127,6 +136,7 @@ const About:React.FunctionComponent = () => {
                   <div className="period">
                     <span>{d.period}</span>
                   </div>
+                            <div style={{ display:"flex",flexDirection:"row-reverse"}}>
                   <div className="content">
                    <p className="company">
                       {d.position} <span className="position">{d.company}</span>
@@ -136,8 +146,10 @@ const About:React.FunctionComponent = () => {
                       2. {d.desc_2}
                     </p>
                   </div>
-                </div>
-              );
+                            <div style={{padding:"0 0.4rem 0 0"}}><img src={d.logo} alt="company-logo" style={{width:"4rem"}}/></div>
+                            </div>
+                        </div>
+                      );
             })}
           </div>
         </div>
