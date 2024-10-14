@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.7afda3b0.css",
-    "main.js": "/myportfolio/static/js/main.fb4fffed.js",
+    "main.js": "/myportfolio/static/js/main.eefff2f8.js",
     "static/media/ac-platform.png": "/myportfolio/static/media/ac-platform.f1b5c8c2a14f362e3e2a.png",
     "static/media/img-generator.png": "/myportfolio/static/media/img-generator.33035319b04ba45855f3.png",
     "static/media/arcade-game.png": "/myportfolio/static/media/arcade-game.7d79f9b1c6a8a5365b25.png",
     "static/media/portfolio.png": "/myportfolio/static/media/portfolio.ac5ea894f71036a0f526.png",
+    "static/media/ogilvy-logo.jpeg": "/myportfolio/static/media/ogilvy-logo.315044eec42d7592e21c.jpeg",
     "static/media/cems-er.png": "/myportfolio/static/media/cems-er.05bfac47724d3b4c90bc.png",
     "static/media/cems-sdm.png": "/myportfolio/static/media/cems-sdm.7e0f3c2470d1ee2a4938.png",
     "static/media/app-webview.png": "/myportfolio/static/media/app-webview.12361e0fa2fedfd536ff.png",
@@ -15,10 +16,10 @@
     "static/media/avatar.png": "/myportfolio/static/media/avatar.e696dfa73d09e0f9db17.png",
     "index.html": "/myportfolio/index.html",
     "main.7afda3b0.css.map": "/myportfolio/static/css/main.7afda3b0.css.map",
-    "main.fb4fffed.js.map": "/myportfolio/static/js/main.fb4fffed.js.map"
+    "main.eefff2f8.js.map": "/myportfolio/static/js/main.eefff2f8.js.map"
   },
   "entrypoints": [
     "static/css/main.7afda3b0.css",
-    "static/js/main.fb4fffed.js"
+    "static/js/main.eefff2f8.js"
   ]
 }
