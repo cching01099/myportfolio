@@ -77,27 +77,27 @@ const About:React.FunctionComponent = () => {
             <h3>
               <i className="fa-solid fa-screwdriver-wrench"></i>  {t("about_skills")}
             </h3>
-              <ul className="skill">
-                  <li>
+              <ul className="skill" >
+                  <li style={{marginBottom:"1.5rem"}}>
                       <span> {t("about_react")} </span> <br/>
                       1. {t("about_react_desc_1")} <br/>
                       2. {t("about_react_desc_2")} <br/>
                       3. {t("about_react_desc_3")}
                   </li>
-                  <li>
+                  <li style={{marginBottom:"1.5rem"}}>
                       <span>{t("about_js")}</span> <br/>
                       1. {t("about_js_desc_1")} <br/>
                       2. {t("about_js_desc_2")} <br/>
                       3. {t("about_js_desc_3")}
                   </li>
-                  <li>
+                  <li style={{marginBottom:"1.5rem"}}>
                       <span>{t("about_css")}</span> <br/>
                       1. {t("about_css_desc_1")} <br/>
                       2. {t("about_css_desc_2")} <br/>
                       3. {t("about_css_desc_3")} <br/>
                       4. {t("about_css_desc_4")} <br/>
                   </li>
-                  <li>
+                  <li style={{marginBottom:"1.5rem"}}>
                       <span>{t("about_others")}</span> <br/>
                       1. {t("about_others_desc_1")} <br/>
                       2. {t("about_others_desc_2")} <br/>
@@ -142,8 +142,22 @@ const About:React.FunctionComponent = () => {
                       {d.position} <span className="position">{d.company}</span>
                     </p>
                     <p className="description">
-                      1. {d.desc} <br />
-                      2. {d.desc_2}
+                        {d.id === "0" ? (
+                            <>
+                                1. {d.desc} <br />
+                                2. {d.desc_2} <br />
+                                3. {t("about_work_desc3")} <br />
+                                4. {t("about_work_desc4")} <br />
+                                5. {t("about_work_desc5")} <br />
+                                6. {t("about_work_desc6")} <br />
+                                7. {t("about_work_desc7")} <br />
+                            </>
+                        ) : (
+                            <>
+                                1. {d.desc} <br />
+                                2. {d.desc_2}
+                            </>
+                        )}
                     </p>
                   </div>
                             <div style={{padding:"0 0.4rem 0 0"}}><img src={d.logo} alt="company-logo" style={{width:"4rem"}}/></div>
