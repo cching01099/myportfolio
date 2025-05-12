@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.b0888bf2.css",
-    "main.js": "/myportfolio/static/js/main.173e30ed.js",
-    "static/media/ac-platform.png": "/myportfolio/static/media/ac-platform.f1b5c8c2a14f362e3e2a.png",
-    "static/media/img-generator.png": "/myportfolio/static/media/img-generator.33035319b04ba45855f3.png",
-    "static/media/arcade-game.png": "/myportfolio/static/media/arcade-game.7d79f9b1c6a8a5365b25.png",
-    "static/media/eatsy.png": "/myportfolio/static/media/eatsy.20819a73aff911d7e4b5.png",
+    "main.css": "/myportfolio/static/css/main.7afda3b0.css",
+    "main.js": "/myportfolio/static/js/main.e2a86014.js",
     "static/media/ogilvy-logo.jpeg": "/myportfolio/static/media/ogilvy-logo.315044eec42d7592e21c.jpeg",
-    "static/media/cems-er.png": "/myportfolio/static/media/cems-er.05bfac47724d3b4c90bc.png",
+    "static/media/ac-platform.webp": "/myportfolio/static/media/ac-platform.7b87e50259a94663e433.webp",
+    "static/media/img-generator.webp": "/myportfolio/static/media/img-generator.7219795851b5ac7541af.webp",
+    "static/media/arcade-game.webp": "/myportfolio/static/media/arcade-game.666b95d11476c467b779.webp",
     "static/media/myphoto.png": "/myportfolio/static/media/myphoto.483c0e8d24614f191cb7.png",
     "static/media/callme.png": "/myportfolio/static/media/callme.98e9279383de9c7326fb.png",
     "static/media/avatar.png": "/myportfolio/static/media/avatar.e696dfa73d09e0f9db17.png",
+    "static/media/cems-er.webp": "/myportfolio/static/media/cems-er.aa2f71ba01d9731fc134.webp",
+    "static/media/eatsy.webp": "/myportfolio/static/media/eatsy.e26e687c0507d4b3daa3.webp",
     "static/media/astra-logo.jpeg": "/myportfolio/static/media/astra-logo.1ee7f372aaf985aa0194.jpeg",
     "index.html": "/myportfolio/index.html",
-    "main.b0888bf2.css.map": "/myportfolio/static/css/main.b0888bf2.css.map",
-    "main.173e30ed.js.map": "/myportfolio/static/js/main.173e30ed.js.map"
+    "main.7afda3b0.css.map": "/myportfolio/static/css/main.7afda3b0.css.map",
+    "main.e2a86014.js.map": "/myportfolio/static/js/main.e2a86014.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0888bf2.css",
-    "static/js/main.173e30ed.js"
+    "static/css/main.7afda3b0.css",
+    "static/js/main.e2a86014.js"
   ]
 }
