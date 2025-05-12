@@ -1,9 +1,9 @@
 import React from "react";
-import img3 from "../assets/arcade-game.png";
-import img2 from "../assets/img-generator.png";
-import ac_img from "../assets/ac-platform.png";
-import er_img from "../assets/cems-er.png";
-import eatsy_img from "../assets/eatsy.png";
+import img3 from "../assets/webp/arcade-game.webp";
+import img2 from "../assets/webp/img-generator.webp";
+import ac_img from "../assets/webp/ac-platform.webp";
+import er_img from "../assets/webp/cems-er.webp";
+import eatsy_img from "../assets/webp/eatsy.webp";
 
 
 
@@ -33,7 +33,7 @@ const Projects = () => {
         },
         {
             name: t("projects_project_1_name"),
-            tags: ["React", "工作作品"],
+            tags: ["React","Tailwind" ,"工作"],
             desc: t("projects_project_1_desc"),
             img: ac_img,
             demo: "https://drive.google.com/file/d/1J3g9SqI_hpTEeCQ1w_MrdTCVMKN2QVNL/view",
@@ -41,7 +41,7 @@ const Projects = () => {
         },
         {
             name: t("projects_project_2_name"),
-            tags: ["React","工作作品"],
+            tags: ["React","Tailwind","工作"],
             desc: t("projects_project_2_desc"),
             img: er_img,
             demo: "",
@@ -49,7 +49,7 @@ const Projects = () => {
         },
         {
             name: t("projects_project_8_name"),
-            tags: ["JS", "SCSS",'個人作品'],
+            tags: ["JS", "SCSS",'個人'],
             desc: t("projects_project_8_desc"),
             img: img3,
             demo: "https://cching01099.github.io/ArcadeGame/",
@@ -57,7 +57,7 @@ const Projects = () => {
         },
         {
             name: t("projects_project_7_name"),
-            tags: ["React", "SCSS",'個人作品'],
+            tags: ["React", "SCSS",'個人'],
             desc: t("projects_project_7_desc"),
             img: img2,
             demo: "https://cching01099.github.io/ImageGenerator-React/",
